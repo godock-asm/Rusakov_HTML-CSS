@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Структурные элементы</title>
+</head>
+<body>
+<header>
+	<h1> Наш сайт самый лучший мире!</h1>
+</header>
+<nav>
+	<table>
+		<tr>
+			<td><a href="#">Меню1</a></td>
+			<td><a href="#">Меню2</a></td>
+			<td><a href="#">Меню3</a></td>
+		</tr>
+	</table>
+</nav>
+<article>
+	<h2>СТАТЬЯ</h2>
+	<figure>
+	<img src="images/html5.jpg" alt="Картинка HTML5" >
+	<figcaption>Картинка HTML</figcaption>
+	</figure>
+	<section>
+		<h2>Подзаголовок 2</h2>
+		<p>Текст статьи....</p>
+		<p>Текст статьи....</p>
+	</section>
+	<section>
+		<h2>Подзаголовок 3</h2>
+		<p>Текст статьи....</p>
+		<p>Текст статьи....</p>
+		<p>Отмечу, что <mark>HTML -это важная технология.</mark></p>
+	</section>
+	<aside>Это цитата или мнение.</aside>
+	<h3>Музыка</h3>
+	<audio controls >
+	<source src="audio.mp3" type="audio/mpeg">
+	<source src="audio.mp3" type="audio/ogg">
+	<p>Ваш браузер не поддерживает аудиоплеер</p>
+	</audio>
+	<h3>Видео</h3>
+	<video width="300" controls >
+		<source src="video.ogv" type="video/ogv">
+		<source src="video.mp4" type="video/mp3">
+		<source src="video.webm" type="video/webm">
+		<p>Ваш браузер не поддерживает видеоплеер</p>
+	</video>
+</article>
+<br>
+<form name="myform" action="#" method="post">
+	<p>
+		Ваше имя: <input type="text" name="text">
+	</p>
+	<p>
+		E-mail: <input type="email" name="email" placeholder="Ваш E-mail">
+	</p>
+	<p>
+		Телефон: <input type="tel" name="phone" placeholder="В форме:+7945 123-45-678" pattern="+7945[0-9]{3}-[0-9]{2}-[0-9]{3}" required >
+	</p>
+	<p>
+		Дата рождения: <input type="date" name="date"  >
+	</p>
+	<p>
+		Пароль: <input type="password" name="Пароль" >
+	</p>
+	<p>
+		<input type="submit" value="Регистрация" >
+	</p>
+</form>
+<footer>Подвальная часть сайта</footer>
+
+</body>
+</html>
+			
